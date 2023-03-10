@@ -1,0 +1,190 @@
+body {
+    background-image:url(img/img\ full\ body2.jpeg) ;
+    margin: 0;
+}
+
+
+
+#menu {
+    width: 100%;
+    height: 60px;
+    background-color: rgb(255, 255, 255)
+}
+
+#menu img {
+    height: 60px;
+    margin-left: 30px;
+
+}
+
+.linkMenu {
+    float: right;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: aliceblue;
+    font-size: 2em;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: black;
+}
+
+/*=======================================================================================*/
+
+
+
+.game {
+    width: 90%;
+    height: 600px;
+    padding: 60px;
+    margin: 0 auto;
+    display: table;
+}
+
+.game img {
+    width: 40%;
+    height: 500px;
+    float: right;
+}
+
+.game .texto1 {
+    margin-top: 50px;
+    width: 50%;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.game h1 {
+    color: aliceblue;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.game p {
+    color: red;
+}
+
+/*========================================================================================*/
+
+.game2 {
+    width: 90%;
+    height: 600px;
+    padding: 60px;
+    margin: 0 auto;
+    display: table;
+}
+
+.game2 img {
+    width: 40%;
+    height: 500px;
+    float: left;
+}
+
+.game2 .texto2 {
+    margin-top: 50px;
+    width: 50%;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    float: right;
+}
+
+.game2 h1 {
+    color: aliceblue;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.game2 p{
+    color: green;
+}
+
+/*=========================================================================================*/
+
+.game3 {
+    width: 90%;
+    height: 600px;
+    padding: 60px;
+    margin: 0 auto;
+    display: table;
+}
+
+.game3 img {
+    width: 40%;
+    height: 500px;
+    float: right;
+}
+
+.game3 .texto3 {
+    margin-top: 50px;
+    width: 50%;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.game3 h1 {
+    color: aliceblue;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.game3 p {
+    color: grey;
+}
+
+/*====================================================================================================*/
+
+.game4 {
+    width: 90%;
+    height: 600px;
+    padding: 60px;
+    margin: 0 auto;
+    display: table;
+}
+
+.game4 img {
+    width: 40%;
+    height: 500px;
+    float: left;
+}
+
+.game4 .texto4 {
+    margin-top: 50px;
+    width: 50%;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    float: right;
+}
+
+.game4 h1 {
+    color: aliceblue;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.game4 p{
+    color: steelblue;
+}
+
+
+/*==============================================================================================*/
+
+@media screen and (max-width : 768px){
+    .game {padding: 0px 20px 20px}
+    .game .texto {width: 100%; text-align: center; margin-top: 20px;}
+    .game h1 {font-size: 18px;}
+    .game p {font-size: 12px; margin-top:  20px;}
+    .game img {width: 100%; height: 300px; margin-top: 20px; float: none;}  
+
+    .game2 {padding: 0px 20px 20px}
+    .game2 .texto {width: 100%; text-align: center; margin-top: 20px;}
+    .game2 h1 {font-size: 18px;}
+    .game2 p {font-size: 12px; margin-top:  20px;}
+    .game2 img {width: 100%; height: 300px; margin-top: 20px; float: none;}
+
+    .game3 {padding: 0px 20px 20px}
+    .game3 .texto {width: 100%; text-align: center; margin-top: 20px;}
+    .game3 h1 {font-size: 18px;}
+    .game3 p {font-size: 12px; margin-top:  20px;}
+    .game3 img {width: 100%; height: 300px; margin-top: 20px; float: none;}
+
+    .game4 {padding: 0px 20px 20px}
+    .game4 .texto {width: 100%; text-align: center; margin-top: 20px;}
+    .game4 h1 {font-size: 18px;}
+    .game4 p {font-size: 12px; margin-top:  20px;}
+    .game4 img {width: 100%; height: 300px; margin-top: 20px; float: none;}
+}
+
